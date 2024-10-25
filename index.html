@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Slider</title>
+<style>
+    div{
+        height: 100vh; 
+        border-radius: 20px;
+        background-size: cover;
+        animation: photo 30s linear infinite;
+    }
+    @keyframes photo{
+        0%{background-image:url(img1.jpg);}
+        30%{background-image:url(img2.jpg);}
+        60%{background-image:url(img3.jpg);}
+        100%{background-image:url(img4.jpg);}
+    }
+</style>
+</head>
+<body>
+   <div></div>
+    
+</body>
+</html>
